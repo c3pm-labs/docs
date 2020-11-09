@@ -1,0 +1,11 @@
+{
+  "unversionedId": "docs",
+  "id": "docs",
+  "isDocsHomePage": false,
+  "title": "Documentation",
+  "source": "@site/docs/doc3.md",
+  "slug": "/",
+  "permalink": "/docs/",
+  "editUrl": "https://github.com/c3pm-labs/docs/docs/doc3.md",
+  "version": "current"
+}

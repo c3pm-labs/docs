@@ -1,0 +1,17 @@
+{
+  "unversionedId": "about",
+  "id": "about",
+  "isDocsHomePage": false,
+  "title": "About C3PM",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/about.md",
+  "slug": "/about",
+  "permalink": "/docs/about",
+  "editUrl": "https://github.com/c3pm-labs/docs/docs/about.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting_started"
+  }
+}

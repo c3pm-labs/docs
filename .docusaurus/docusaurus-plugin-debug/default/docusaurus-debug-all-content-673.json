@@ -1,0 +1,282 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/oursin/Documents/eip/docs/sidebars.js",
+          "docsDirPath": "/home/oursin/Documents/eip/docs/docs",
+          "mainDocId": "docs",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "About",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "about"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting_started"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/about": "someSidebar",
+            "/docs/getting_started": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "about",
+              "id": "about",
+              "isDocsHomePage": false,
+              "title": "About C3PM",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/about.md",
+              "slug": "/about",
+              "permalink": "/docs/about",
+              "editUrl": "https://github.com/c3pm-labs/docs/docs/about.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/getting_started"
+              }
+            },
+            {
+              "unversionedId": "docs",
+              "id": "docs",
+              "isDocsHomePage": false,
+              "title": "Documentation",
+              "source": "@site/docs/doc3.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/c3pm-labs/docs/docs/doc3.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "getting_started",
+              "id": "getting_started",
+              "isDocsHomePage": false,
+              "title": "Getting Started",
+              "description": "* Downloading and installing C3PM",
+              "source": "@site/docs/getting_started.md",
+              "slug": "/getting_started",
+              "permalink": "/docs/getting_started",
+              "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About C3PM",
+                "permalink": "/docs/about"
+              }
+            },
+            {
+              "unversionedId": "getting_started/install",
+              "id": "getting_started/install",
+              "isDocsHomePage": false,
+              "title": "Downloading and installing C3PM",
+              "description": "To publish and install package to and from the C£PM registry, you need the C3PM command line interface.",
+              "source": "@site/docs/getting_started/install.md",
+              "slug": "/getting_started/install",
+              "permalink": "/docs/getting_started/install",
+              "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started/install.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/mdx.md",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "editUrl": "https://github.com/c3pm-labs/docs/docs/mdx.md",
+              "version": "current"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-30-welcome.md",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-29-hello-world.md",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hello",
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-28-hola.md",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hola",
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
