@@ -7,6 +7,15 @@
   "source": "@site/docs/getting_started/install.md",
   "slug": "/getting_started/install",
   "permalink": "/docs/getting_started/install",
-  "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started/install.md",
-  "version": "current"
+  "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/getting_started/install.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "About C3PM",
+    "permalink": "/docs/about"
+  },
+  "next": {
+    "title": "Contributing to C3PM's CLI",
+    "permalink": "/docs/contributing/cli"
+  }
 }

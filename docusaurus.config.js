@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/getting_started',
+          to: 'docs/getting_started/install',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -83,13 +83,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/c3pm-labs/docs',
+            'https://github.com/c3pm-labs/docs/tree/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/c3pm-labs/docs/blog/',
+            'https://github.com/c3pm-labs/docs/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

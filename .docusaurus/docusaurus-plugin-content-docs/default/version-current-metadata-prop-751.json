@@ -23,8 +23,20 @@
         "items": [
           {
             "type": "link",
-            "label": "Getting Started",
-            "href": "/docs/getting_started"
+            "label": "Downloading and installing C3PM",
+            "href": "/docs/getting_started/install"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Contributing",
+        "items": [
+          {
+            "type": "link",
+            "label": "Contributing to C3PM's CLI",
+            "href": "/docs/contributing/cli"
           }
         ]
       }
@@ -32,6 +44,7 @@
   },
   "permalinkToSidebar": {
     "/docs/about": "someSidebar",
-    "/docs/getting_started": "someSidebar"
+    "/docs/contributing/cli": "someSidebar",
+    "/docs/getting_started/install": "someSidebar"
   }
 }

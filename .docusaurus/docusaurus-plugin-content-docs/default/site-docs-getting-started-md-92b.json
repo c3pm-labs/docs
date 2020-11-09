@@ -7,11 +7,15 @@
   "source": "@site/docs/getting_started.md",
   "slug": "/getting_started",
   "permalink": "/docs/getting_started",
-  "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started.md",
+  "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/getting_started.md",
   "version": "current",
   "sidebar": "someSidebar",
   "previous": {
     "title": "About C3PM",
     "permalink": "/docs/about"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/contributing"
   }
 }

@@ -4,7 +4,10 @@ module.exports = {
     	{"type": "doc", "id":"about"}    	
     ],
     'Getting Started': [
-    	'getting_started'
+    	'getting_started/install'
     ],
+    'Contributing': [
+    	'contributing/cli'
+    ]
   },
 };

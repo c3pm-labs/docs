@@ -31,7 +31,18 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "getting_started"
+                    "id": "getting_started/install"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Contributing",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "contributing/cli"
                   }
                 ]
               }
@@ -39,7 +50,8 @@
           },
           "permalinkToSidebar": {
             "/docs/about": "someSidebar",
-            "/docs/getting_started": "someSidebar"
+            "/docs/contributing/cli": "someSidebar",
+            "/docs/getting_started/install": "someSidebar"
           },
           "docs": [
             {
@@ -47,16 +59,33 @@
               "id": "about",
               "isDocsHomePage": false,
               "title": "About C3PM",
-              "description": "This is a link to another document. This is a link to an external page.",
+              "description": "C3PM is a next-generation package manager for C++.",
               "source": "@site/docs/about.md",
               "slug": "/about",
               "permalink": "/docs/about",
-              "editUrl": "https://github.com/c3pm-labs/docs/docs/about.md",
+              "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/about.md",
               "version": "current",
               "sidebar": "someSidebar",
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/getting_started"
+                "title": "Downloading and installing C3PM",
+                "permalink": "/docs/getting_started/install"
+              }
+            },
+            {
+              "unversionedId": "contributing/cli",
+              "id": "contributing/cli",
+              "isDocsHomePage": false,
+              "title": "Contributing to C3PM's CLI",
+              "description": "How to get started developing on C3PM's CLI ?",
+              "source": "@site/docs/contributing/cli.md",
+              "slug": "/contributing/cli",
+              "permalink": "/docs/contributing/cli",
+              "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/contributing/cli.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Downloading and installing C3PM",
+                "permalink": "/docs/getting_started/install"
               }
             },
             {
@@ -64,28 +93,11 @@
               "id": "docs",
               "isDocsHomePage": false,
               "title": "Documentation",
-              "source": "@site/docs/doc3.md",
+              "source": "@site/docs/home.md",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/c3pm-labs/docs/docs/doc3.md",
+              "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/home.md",
               "version": "current"
-            },
-            {
-              "unversionedId": "getting_started",
-              "id": "getting_started",
-              "isDocsHomePage": false,
-              "title": "Getting Started",
-              "description": "* Downloading and installing C3PM",
-              "source": "@site/docs/getting_started.md",
-              "slug": "/getting_started",
-              "permalink": "/docs/getting_started",
-              "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started.md",
-              "version": "current",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "About C3PM",
-                "permalink": "/docs/about"
-              }
             },
             {
               "unversionedId": "getting_started/install",
@@ -96,8 +108,17 @@
               "source": "@site/docs/getting_started/install.md",
               "slug": "/getting_started/install",
               "permalink": "/docs/getting_started/install",
-              "editUrl": "https://github.com/c3pm-labs/docs/docs/getting_started/install.md",
-              "version": "current"
+              "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/getting_started/install.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About C3PM",
+                "permalink": "/docs/about"
+              },
+              "next": {
+                "title": "Contributing to C3PM's CLI",
+                "permalink": "/docs/contributing/cli"
+              }
             },
             {
               "unversionedId": "mdx",
@@ -108,7 +129,7 @@
               "source": "@site/docs/mdx.md",
               "slug": "/mdx",
               "permalink": "/docs/mdx",
-              "editUrl": "https://github.com/c3pm-labs/docs/docs/mdx.md",
+              "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/mdx.md",
               "version": "current"
             }
           ]
@@ -123,7 +144,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-30-welcome.md",
+            "editUrl": "https://github.com/c3pm-labs/docs/tree/master/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
             "date": "2019-05-30T00:00:00.000Z",
@@ -154,7 +175,7 @@
           "id": "hello-world",
           "metadata": {
             "permalink": "/blog/hello-world",
-            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-29-hello-world.md",
+            "editUrl": "https://github.com/c3pm-labs/docs/tree/master/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
             "date": "2019-05-29T00:00:00.000Z",
@@ -185,7 +206,7 @@
           "id": "hola",
           "metadata": {
             "permalink": "/blog/hola",
-            "editUrl": "https://github.com/c3pm-labs/docs/blog/blog/2019-05-28-hola.md",
+            "editUrl": "https://github.com/c3pm-labs/docs/tree/master/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",

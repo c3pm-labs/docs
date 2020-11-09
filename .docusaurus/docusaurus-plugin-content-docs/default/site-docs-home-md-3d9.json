@@ -3,9 +3,9 @@
   "id": "docs",
   "isDocsHomePage": false,
   "title": "Documentation",
-  "source": "@site/docs/doc3.md",
+  "source": "@site/docs/home.md",
   "slug": "/",
   "permalink": "/docs/",
-  "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/doc3.md",
+  "editUrl": "https://github.com/c3pm-labs/docs/tree/master/docs/home.md",
   "version": "current"
 }

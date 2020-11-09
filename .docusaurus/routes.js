@@ -89,12 +89,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','da3'),
+  component: ComponentCreator('/docs','0f9'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','81f'),
+  component: ComponentCreator('/docs/','d7b'),
   exact: true,
 },
 {
@@ -103,8 +103,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/getting_started',
-  component: ComponentCreator('/docs/getting_started','8a6'),
+  path: '/docs/contributing/cli',
+  component: ComponentCreator('/docs/contributing/cli','2f6'),
   exact: true,
 },
 {

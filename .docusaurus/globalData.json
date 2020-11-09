@@ -15,12 +15,12 @@
               "path": "/docs/about"
             },
             {
-              "id": "docs",
-              "path": "/docs/"
+              "id": "contributing/cli",
+              "path": "/docs/contributing/cli"
             },
             {
-              "id": "getting_started",
-              "path": "/docs/getting_started"
+              "id": "docs",
+              "path": "/docs/"
             },
             {
               "id": "getting_started/install",

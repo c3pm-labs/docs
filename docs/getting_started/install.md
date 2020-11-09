@@ -7,7 +7,7 @@ To publish and install package to and from the C£PM registry, you need the C3PM
 
 ## Installing a prebuilt release
 
-:::warning
+:::info
 C3PM currently does not support prebuilt release, please refer to the [Building from source](#building-from-source) section.
 :::
 

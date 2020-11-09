@@ -16,7 +16,7 @@ export default {
       },
       "items": [
         {
-          "to": "docs/getting_started",
+          "to": "docs/getting_started/install",
           "activeBasePath": "docs",
           "label": "Docs",
           "position": "left"
@@ -98,11 +98,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/oursin/Documents/eip/docs/sidebars.js",
-          "editUrl": "https://github.com/c3pm-labs/docs"
+          "editUrl": "https://github.com/c3pm-labs/docs/tree/master"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/c3pm-labs/docs/blog/"
+          "editUrl": "https://github.com/c3pm-labs/docs/tree/master/blog/"
         },
         "theme": {
           "customCss": "/home/oursin/Documents/eip/docs/src/css/custom.css"
