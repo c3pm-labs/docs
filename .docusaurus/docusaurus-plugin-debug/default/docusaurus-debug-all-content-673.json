@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/oursin/Documents/eip/docs/sidebars.js",
-          "docsDirPath": "/home/oursin/Documents/eip/docs/docs",
+          "sidebarFilePath": "/Users/bibo/delivery/EIP/c3pm/docs/sidebars.js",
+          "docsDirPath": "/Users/bibo/delivery/EIP/c3pm/docs/docs",
           "mainDocId": "docs",
           "sidebars": {
             "someSidebar": [

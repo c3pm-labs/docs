@@ -37,11 +37,11 @@ module.exports = {
           items: [
             {
               label: 'Getting started',
-              to: 'docs/getting_started',
+              to: 'docs/getting_started/install',
             },
             {
               label: 'About',
-              to: 'docs/about/',
+              to: 'docs/about',
             },
           ],
         },

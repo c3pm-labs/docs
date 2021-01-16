@@ -42,11 +42,11 @@ export default {
           "items": [
             {
               "label": "Getting started",
-              "to": "docs/getting_started"
+              "to": "docs/getting_started/install"
             },
             {
               "label": "About",
-              "to": "docs/about/"
+              "to": "docs/about"
             }
           ]
         },
@@ -77,7 +77,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2020 C3PM Built with Docusaurus."
+      "copyright": "Copyright © 2021 C3PM Built with Docusaurus."
     },
     "colorMode": {
       "defaultMode": "light",
@@ -97,7 +97,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/oursin/Documents/eip/docs/sidebars.js",
+          "sidebarPath": "/Users/bibo/delivery/EIP/c3pm/docs/sidebars.js",
           "editUrl": "https://github.com/c3pm-labs/docs/tree/master"
         },
         "blog": {
@@ -105,7 +105,7 @@ export default {
           "editUrl": "https://github.com/c3pm-labs/docs/tree/master/blog/"
         },
         "theme": {
-          "customCss": "/home/oursin/Documents/eip/docs/src/css/custom.css"
+          "customCss": "/Users/bibo/delivery/EIP/c3pm/docs/src/css/custom.css"
         }
       }
     ]
