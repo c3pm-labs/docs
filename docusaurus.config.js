@@ -72,7 +72,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} C3PM Built with Docusaurus`,
+      copyright: `Copyright © ${new Date().getFullYear()} C3PM Built with Docusaurus.`,
     },
   },
   presets: [
