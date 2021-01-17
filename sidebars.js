@@ -8,6 +8,9 @@ module.exports = {
     ],
     'Contributing': [
     	'contributing/cli'
+    ],
+    'Commands': [
+    	'command/commands'
     ]
   },
 };
