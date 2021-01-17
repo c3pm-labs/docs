@@ -6,8 +6,11 @@ module.exports = {
     'Getting Started': [
     	'getting_started/install'
     ],
+    'Commands': [
+      'command/commands'
+    ],
     'Contributing': [
-    	'contributing/cli'
+      'contributing/cli'
     ]
   },
 };
