@@ -9,6 +9,9 @@ module.exports = {
     'Commands': [
       'command/commands'
     ],
+    'c3pm.yaml': [
+      'c3pm.yaml/yaml'
+    ],
     'Contributing': [
       'contributing/cli'
     ]
