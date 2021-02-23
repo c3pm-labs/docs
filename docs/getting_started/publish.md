@@ -72,5 +72,5 @@ Congratulations !
 
 You've written your first C++ package with c3pm.
 
-You can view all your published packages on our [website](https://c3pm.io/) in the profil section.
+You can view all your published packages on our [website](https://c3pm.io/) in your profil section.
 You can also check out other people packages and search for packages.
