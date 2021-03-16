@@ -3,13 +3,80 @@ id: install
 title: Downloading and installing C3PM
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 To publish and install package to and from the C3PM registry, you need the C3PM command line interface.
+
 
 ## Installing a prebuilt release
 
-:::info
-C3PM currently does not support prebuilt release, please refer to the [Building from source](#building-from-source) section.
+
+We provide prebuilt binaries directly in [github release](https://github.com/c3pm-labs/c3pm/releases/latest)
+
+You can download packages there or use our repos when available
+
+
+### Linux
+
+:::caution
+No c++ compiler is being installed alongside c3pm, this is left to user
 :::
+
+<Tabs
+	defaultValue="deb"
+	values={[
+		{label: 'deb', value: 'deb'},
+		{label: 'rpm', value: 'rpm'},
+		{label: 'Manually', value: 'manually'},
+	]}
+>
+<TabItem value="deb">
+
+**Debian Ubuntu Mint PopOs**
+
+```bash
+apt update
+apt install ./c3pm_0.0.1_linux_amd64.deb
+```
+</TabItem>
+<TabItem value="rpm">
+
+**OpenSuse/RHEL Based**
+
+```bash
+yum install ./c3pm_0.0.1_linux_amd64.rpm    # CentOS
+dnf install ./c3pm_0.0.1_linux_amd64.rpm    # Fedora/RHEL
+zypper install ./c3pm_0.0.1_linux_amd64.rpm # OpenSUSE
+```
+
+</TabItem>
+<TabItem value="manually">
+
+Before c3pm, you should install cmake and a c++ compiler
+
+```bash
+tar xvf ./c3pm_0.0.1_Linux_x86_64.tar.gz
+ls
+#> LICENSE.txt  README.md  c3pm_0.0.1_Linux_x86_64.tar.gz  ctpm
+```
+</TabItem>
+</Tabs>
+
+
+### MacOS
+
+C3PM provide a tap to install and update it easily
+
+```
+brew tap c3pm-labs/c3pm
+brew install c3pm
+ctpm -v
+```
+
+### Windows
+
+
 
 ## Building from source
 
