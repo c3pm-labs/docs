@@ -3,7 +3,7 @@ id: install
 title: Downloading and installing C3PM
 ---
 
-To publish and install package to and from the C£PM registry, you need the C3PM command line interface.
+To publish and install package to and from the C3PM registry, you need the C3PM command line interface.
 
 ## Installing a prebuilt release
 
