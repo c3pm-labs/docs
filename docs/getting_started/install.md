@@ -33,7 +33,7 @@ No c++ compiler is being installed alongside c3pm, this is left to user
 >
 <TabItem value="deb">
 
-**Debian Ubuntu Mint PopOs**
+**Debian 11, Ubuntu 20, Mint 20, PopOs 20+**
 
 ```bash
 apt update
@@ -76,7 +76,10 @@ ctpm -v
 
 ### Windows
 
+We do not yet have repositories to easily install c3pm on windows.
 
+You should download windows archive in [github release](https://github.com/c3pm-labs/c3pm/releases/latest).
+Installation of cmake and a c++ compiler is left to user.
 
 ## Building from source
 
@@ -95,8 +98,9 @@ cd c3pm
 Then build and install the project:
 
 ```bash
-go build -o c3pm
-sudo install c3pm /usr/bin
+mkdir build
+go build -o build/ctpm
+sudo install build/ctpm /usr/bin
 ```
 
 You should now have the `c3pm` tool globally available.
