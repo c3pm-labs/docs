@@ -6,7 +6,7 @@ title: C3PM commands
 
 ### `add`
 
-This commands adds a new dependency to the current project. It downloads, unpacks, builds and installs the dependency following the dependency handling spec.
+This command adds a new dependency to the current project. It downloads, unpacks, builds and installs the dependency following the dependency handling spec.
 
 ###### Command format
 
@@ -25,6 +25,18 @@ Where `name` is the name of the package to install, and `version` describes the 
 ###### Options
 
 * `--force` - Will redo the whole installation process even if the package is already installed.
+
+### `remove`
+
+This command removes a dependency from the `c3pm.yaml`.
+
+###### Command format
+
+```bash
+ctpm remove [packages ...]
+```
+
+`packages` is a list of package name to remove.
 
 ### `init`
 
