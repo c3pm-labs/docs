@@ -2,121 +2,130 @@
 id: yaml
 title: Fields
 ---
-### c3pm.yaml
+## c3pm.yaml
 
-##### `c3pm_version`
+### `c3pm_version`
 
-This field is the version of c3pm that you are using.
+The version of c3pm you are using, in semantic versioning format.
 
 Mandatory: Yes
 
-##### `type`
+### `type`
 
-This field is either a library or an executable.
+This is either library or executable.
 
 When you initialize your project, you have to choose between a library or an executable.
 
 Mandatory: Yes
 
-##### `name`
+### `name`
 
-This field is the name of your project
+The name of your project
 
 When you initialize your project, you have to put a name on your project.
 
 Mandatory: Yes
 
-##### `description`
+### `description`
 
-This field is the description of your project
+A description of your project
 
 When you initialize your project, you can put a description on your project.
 
 Mandatory: No
 
-##### `version`
+### `version`
 
-This field is the version of your project.
+The version of your project in semantic versioning format.
 
-When you initialize your project, you can changethe version of your project.
+When you initialize your project, you can choose the version of your project.
+You cannot publish the same version twice, you will need to update this field when you want to publish your package again.
 
 Mandatory: Yes
 
-##### `documentation`
+### `publish`
+This section is related to the publication of your package.
+This category contains three fields:
+#### `include_dirs`
+Path to your header directory
 
-This field is the url for your project's documentation.
+#### `include`
+Files you want to publish
 
-Mandatory: No
-
-##### `website`
-
-This field is the url for the project's website.
-
-Mandatory: No
-
-##### `readme`
-
-This field is the path for the project's README.
-
-Default value: `./README.md`
+#### `exclude`
+Files you don't want to publish
 
 Mandatory: No
 
-##### `repository`
+### `build`
 
-This field is the url for the project's repository.
+This category contains two fields:
+
+#### `adapter`
+This category contains two fields:
+##### `name`
+Name of the adapter you want to use
+##### `version`
+Version of the adapter you want to use in semantic versioning
+
+#### `config`
+The configuration of the adapter. It may vary a lot depending on the adapter you are using
 
 Mandatory: No
 
-##### `authors`
+### `documentation`
 
-This field is listing all contributors of the project.
+The url for your project's documentation.
 
 Mandatory: No
 
-##### `standard`
+### `website`
 
-This field is the version of CPP that you are using.
+The url for the project's website.
+
+Mandatory: No
+
+### `repository`
+
+The url for the project's repository.
+
+Mandatory: No
+
+### `contributors`
+
+A listing of name/pseudo of the contributors of the project.
+
+Mandatory: No
+
+### `standard`
+
+The version of C++ you are using.
 
 Default value: `20`
 
 Mandatory: Yes
 
-##### `license`
+### `license`
 
-This field is the license of your project.
+The license of your project.
 
 Default value: `UNLICENSED`
 
 Mandatory: Yes
 
-##### `files`
+### `dependencies`
 
-This field groups together all your source and include files in order to compile.
-
-Default value:
-
-```bash
-sources:
-  - '**/*.cpp'
-  includes:
-  - '**/*.hpp'
-  include_dirs: []
-  exported_dir: ""
-  exported_include_dirs: []
-```
+A ist of all the dependencies of your project.
 
 Mandatory: Yes
 
-##### `dependencies`
+### `tags`
 
-This field list all dependencies of your project.
+A list of tags to help the user find your package on the platform
 
-Mandatory: Yes
+Mandatory: No
 
-
-
-Example:
+### Example:
 
 ```bash
 c3pm_version: v1
@@ -124,20 +133,29 @@ type: library
 name: project
 description: this is an exemple of a c3pm.yml file
 version: 1.0.0
-documentation: "url/to/documentation"
-url: "url/to/website"
-readme: "path/to/readme"
-repository: "url/to/repository"
-authors: ['Author A.', 'Author B.']
+publish:
+  include_dirs: "path/to/headers/dir"
+  include:
+    - "tutorial.txt"
+  exlude:
+    - "my-environment"
+build:
+  adapter:
+    name: "exampleAdapter"
+    verion: 0.2.8
+    config: {}
+documentation: "url-to-documentation.io"
+website: "url-to-website.io"
+repository: "url-to-repository.io"
+contributors: ['Author A.', 'Author B.']
 standard: "20"
 license: MIT
-files:
-  sources:
-  - '**/*.cpp'
-  includes:
-  - '**/*.hpp'
-  include_dirs: []
-  exported_dir: ""
-  exported_include_dirs: []
-dependencies: {}
+dependencies: {
+  "superlib": 1.0.3
+  "examplelib": 0.0.7
+}
+tags:
+  - 'example'
+  - 'utils'
+  - 'c3pm'
 ```
