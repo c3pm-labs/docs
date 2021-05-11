@@ -4,46 +4,39 @@ title: Fields
 ---
 ## c3pm.yaml
 
-### `c3pm_version`
+### `c3pm_version` - mandatory
+
 
 The version of c3pm you are using, in semantic versioning format.
 
-Mandatory: Yes
 
-### `type`
+### `type` - mandatory
 
 This is either library or executable.
 
 When you initialize your project, you have to choose between a library or an executable.
 
-Mandatory: Yes
-
-### `name`
+### `name` - mandatory
 
 The name of your project
 
 When you initialize your project, you have to put a name on your project.
 
-Mandatory: Yes
-
-### `description`
+### `description` - optional
 
 A description of your project
 
 When you initialize your project, you can put a description on your project.
 
-Mandatory: No
 
-### `version`
+### `version` - mandatory
 
 The version of your project in semantic versioning format.
 
 When you initialize your project, you can choose the version of your project.
 You cannot publish the same version twice, you will need to update this field when you want to publish your package again.
 
-Mandatory: Yes
-
-### `publish`
+### `publish` - optional
 This section is related to the publication of your package.
 This category contains three fields:
 #### `include_dirs`
@@ -55,9 +48,7 @@ Files you want to publish
 #### `exclude`
 Files you don't want to publish
 
-Mandatory: No
-
-### `build`
+### `build` - optional
 
 This category contains two fields:
 
@@ -71,61 +62,43 @@ Version of the adapter you want to use in semantic versioning
 #### `config`
 The configuration of the adapter. It may vary a lot depending on the adapter you are using
 
-Mandatory: No
-
-### `documentation`
+### `documentation` - optional
 
 The url for your project's documentation.
 
-Mandatory: No
-
-### `website`
+### `website` - optional
 
 The url for the project's website.
 
-Mandatory: No
-
-### `repository`
+### `repository` - optional
 
 The url for the project's repository.
 
-Mandatory: No
-
-### `contributors`
+### `contributors` - optional
 
 A listing of name/pseudo of the contributors of the project.
 
-Mandatory: No
-
-### `standard`
+### `standard` - optional
 
 The version of C++ you are using.
 
 Default value: `20`
 
-Mandatory: Yes
-
-### `license`
+### `license` - mandatory
 
 The license of your project.
 
 Default value: `UNLICENSED`
 
-Mandatory: Yes
-
-### `dependencies`
+### `dependencies` - optional
 
 A ist of all the dependencies of your project.
 
-Mandatory: Yes
-
-### `tags`
+### `tags` - optional
 
 A list of tags to help the user find your package on the platform
 
-Mandatory: No
-
-### Example:
+### Example
 
 ```bash
 c3pm_version: v1
