@@ -32,7 +32,7 @@ const features = [
     imageUrl: 'img/undraw_c3pm_package.svg',
     description: (
       <>
-        And finally, c3pm is, before all, a package manager. 
+        And finally, c3pm is, before all, a package manager.
         You can share a reusable piece of code with the entire community!
       </>
     ),
@@ -58,6 +58,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
+    <>
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
@@ -91,6 +92,15 @@ function Home() {
         )}
       </main>
     </Layout>
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js" />
+    <noscript>
+      <img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </noscript>
+  </>
   );
 }
 
