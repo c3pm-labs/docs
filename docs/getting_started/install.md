@@ -53,7 +53,7 @@ zypper install ./c3pm_0.0.1_linux_amd64.rpm # OpenSUSE
 </TabItem>
 <TabItem value="manually">
 
-Before c3pm, you should install cmake and a c++ compiler
+Before installing c3pm, you should install CMake and a c++ compiler
 
 ```bash
 tar xvf ./c3pm_0.0.1_Linux_x86_64.tar.gz
