@@ -66,7 +66,7 @@ ls
 
 ### MacOS
 
-C3PM provide a tap to install and update it easily
+C3PM provides a tap to install and update it easily
 
 ```
 brew tap c3pm-labs/c3pm
