@@ -20,7 +20,7 @@ You can download packages there or use our repos when available
 ### Linux
 
 :::caution
-No c++ compiler is being installed alongside c3pm, this is left to user
+No c++ compiler is being installed alongside c3pm, this is left to the user
 :::
 
 <Tabs
