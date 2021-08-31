@@ -79,7 +79,7 @@ ctpm -v
 We do not yet have repositories to easily install c3pm on windows.
 
 You should download windows archive in [github release](https://github.com/c3pm-labs/c3pm/releases/latest).
-Installation of cmake and a c++ compiler is left to user.
+Installation of CMake and a c++ compiler is left to the user.
 
 ## Building from source
 
