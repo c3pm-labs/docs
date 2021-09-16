@@ -9,7 +9,7 @@ module.exports = {
       'getting_started/publish'
     ],
     'Advanced': [
-      'advanced/import_cmake.md'
+      'advanced/import_cmake'
     ],
     'Commands': [
       'command/commands'
