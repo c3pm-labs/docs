@@ -130,3 +130,27 @@ ctpm publish
 ```
 
 It must first check if an authentication file exists under the user-level .c3pm directory, and aborts if none exists. Otherwise, it must follow the publication process specs.
+
+### `list`
+
+The command will list all the dependencies need for your project recursively.
+
+###### Command format
+
+```bash
+ctpm list
+```
+
+###### Options
+
+* `--tree` - display the result in a tree format
+
+### `test`
+
+The command will run the test specified in the `test` field of your c3pm.yaml.
+
+###### Command format
+
+```bash
+ctpm test
+```
