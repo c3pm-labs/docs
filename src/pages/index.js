@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/undraw_c3pm_management.svg',
     description: (
       <>
-        C3PM will manage the dependencies for you! No more hours spent installing a simple library:
+        c3pm will manage the dependencies for you! No more hours spent installing a simple library:
         one command and you’re good to go!
       </>
     ),
@@ -60,7 +60,7 @@ function Home() {
   return (
     <>
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Documentation`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
