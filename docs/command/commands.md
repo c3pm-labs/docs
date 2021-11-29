@@ -1,6 +1,6 @@
 ---
 id: commands
-title: C3PM commands
+title: c3pm commands
 ---
 ### How to use c3pm commands?
 
