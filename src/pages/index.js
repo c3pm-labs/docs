@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/undraw_c3pm_management.svg',
     description: (
       <>
-        C3PM will manage the dependencies for you! No more hours spent installing a simple library:
+        c3pm will manage the dependencies for you! No more hours spent installing a simple library:
         one command and you’re good to go!
       </>
     ),
@@ -32,7 +32,7 @@ const features = [
     imageUrl: 'img/undraw_c3pm_package.svg',
     description: (
       <>
-        And finally, c3pm is, before all, a package manager. 
+        And finally, c3pm is, before all, a package manager.
         You can share a reusable piece of code with the entire community!
       </>
     ),
@@ -58,8 +58,9 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
+    <>
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Documentation`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -91,6 +92,15 @@ function Home() {
         )}
       </main>
     </Layout>
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js" />
+    <noscript>
+      <img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </noscript>
+  </>
   );
 }
 
