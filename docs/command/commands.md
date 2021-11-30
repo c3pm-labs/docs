@@ -146,8 +146,8 @@ ctpm list
 * `--tree` - display the result in a tree format
 
 ### `test`
-
-The command will run the test specified in the `test` field of your c3pm.yaml.
+The command will run the test specified in the `test_sources` and `test_headers` fields of your c3pm.yaml.
+Those are optional values, to know the default values check the c3pm.yaml documentation.
 
 ###### Command format
 
