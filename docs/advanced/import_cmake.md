@@ -5,7 +5,7 @@ title: Import a cmake script using cmake adapter
 
 ## CMake Adapter
 
-C3PM bundle a cmake adapter that will build using a CMakeLists.txt at project root
+c3pm bundle a cmake adapter that will build using a CMakeLists.txt at project root
 You can also specify targets name so they are copied after build
 
 ### c3pm.yml
