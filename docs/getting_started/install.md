@@ -1,12 +1,12 @@
 ---
 id: install
-title: Downloading and installing C3PM
+title: Downloading and installing c3pm
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-To publish and install package to and from the C3PM registry, you need the C3PM command line interface.
+To publish and install package to and from the c3pm registry, you need the c3pm command line interface.
 
 
 ## Installing a prebuilt release
@@ -66,7 +66,7 @@ ls
 
 ### MacOS
 
-C3PM provides a tap to install and update it easily
+c3pm provides a tap to install and update it easily
 
 ```
 brew tap c3pm-labs/c3pm
@@ -88,7 +88,7 @@ To build from source you will need the following:
 * [Go 1.11](https://golang.org) or later.
 * [Git](https://git-scm.com)
 
-Start by cloning the C3PM repository:
+Start by cloning the c3pm repository:
 
 ```bash
 git clone https://github.com/c3pm-labs/c3pm

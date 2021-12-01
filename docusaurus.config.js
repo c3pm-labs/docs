@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'C3PM',
+  title: 'c3pm',
   tagline: 'C++ development made simple',
   url: 'https://c3pm.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
   organizationName: 'gabrielcolson', // Usually your GitHub org/user name.
   projectName: 'c3pm', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'C3PM',
+      title: 'c3pm',
       logo: {
-        alt: 'C3PM logo',
+        alt: 'c3pm logo',
         src: 'img/logo.png',
       },
       items: [
@@ -67,7 +67,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} C3PM Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} c3pm Built with Docusaurus.`,
     },
   },
   presets: [

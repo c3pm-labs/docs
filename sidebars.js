@@ -19,6 +19,9 @@ module.exports = {
     ],
     'Contributing': [
       'contributing/cli'
+    ],
+    'Help': [
+      'help/searchbar'
     ]
   },
 };
