@@ -8,6 +8,9 @@ module.exports = {
       'getting_started/test_drive',
       'getting_started/publish'
     ],
+    'Advanced': [
+      'advanced/import_cmake'
+    ],
     'Commands': [
       'command/commands'
     ],
